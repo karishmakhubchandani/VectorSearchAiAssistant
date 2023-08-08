@@ -52,7 +52,7 @@
     },
     "appGitRepository": {
       "type": "string",
-      "defaultValue": "https://github.com/AzureCosmosDB/VectorSearchAiAssistant.git",
+      "defaultValue": "https://github.com/karishmakhubchandani/VectorSearchAiAssistant.git",
       "metadata": {
         "description": "Git repository URL for the application source. This defaults to the [`AzureCosmosDB/VectorSearchAiAssistant`](https://github.com/AzureCosmosDB/VectorSearchAiAssistant) repository."
       }
