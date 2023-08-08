@@ -65,12 +65,11 @@
       }
     }
   },
-   "variables": {
+  "variables": {
     "openAiSettings": {
       "name": "[format('{0}-openai', parameters('name'))]",
       "sku": "[parameters('openAiSku')]",
-      "maxConversationTokens": "100",
-      "maxCompletionTokens": "500",
+      "maxConversationBytes": "2000",
       "completionsModel": {
         "name": "gpt-35-turbo",
         "version": "0301",
